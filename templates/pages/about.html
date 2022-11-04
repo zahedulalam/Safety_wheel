@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+
+{% block title %} | Services {% endblock %}
+{% block content %}
+{% load static %}
+
+<!-- Sub banner start -->
+<div class="sub-banner overview-bgi">
+    <div class="container breadcrumb-area">
+        <div class="breadcrumb-areas">
+            <h1>Services</h1>
+            <ul class="breadcrumbs">
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li class="active">Services</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Sub Banner end -->
+
+<!-- Service center strat -->
+<div class="about-car content-area-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-5 col-lg-6">
+                <div class="about-car-photo">
+                    <div id="carDetailsSlider" class="carousel car-details-sliders slide">
+                        <!-- main slider carousel items -->
+                        <div class="carousel-inner">
+                            <div class="active item carousel-item" data-slide-number="0">
+                                <img src="{% static 'img/car/car-1.jpg' %}" class="img-fluid" alt="slider-car">
+                            </div>
+                            <div class="item carousel-item" data-slide-number="1">
+                                <img src="{% static 'img/car/car-2.jpg' %}" class="img-fluid" alt="slider-car">
+                            </div>
+                            <div class="item carousel-item" data-slide-number="2">
+                                <img src="{% static 'img/car/car-3.jpg' %}" class="img-fluid" alt="slider-car">
+                            </div>
+                        </div>
+                        <!-- main slider carousel nav controls -->
+                        <ul class="carousel-indicators car-properties list-inline nav nav-justified">
+                            <li class="list-inline-item active">
+                                <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#carDetailsSlider">
+                                    <img src="{% static 'img/car/car-1.jpg' %}" class="img-fluid" alt="small-car">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a id="carousel-selector-1" data-slide-to="1" data-target="#carDetailsSlider">
+                                    <img src="{% static 'img/car/car-2.jpg' %}" class="img-fluid" alt="small-car">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a id="carousel-selector-2" data-slide-to="2" data-target="#carDetailsSlider">
+                                    <img src="{% static 'img/car/car-3.jpg' %}" class="img-fluid" alt="small-car">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-7 col-lg-6 align-self-center">
+                <div class="best-used-car">
+                    <h3>Welcome to <span>Safety Wheel</span></h3>
+                    <p>At present, road accidents happen in different parts of Bangladesh, every day someone is almost losing their lives, currently road accidents cause the speeding of vehicles in expressways and highways of Bangladesh. People are losing their lives due to road accident. However, the main cause of death is lack of timely treatment. Lack of timely treatment is the main reason behind an accident, the accident victim suffers an injury to the head or any part of the body that causes excessive bleeding, loses consciousness initially but does not die completely. If he doesn’t get treatment in the right time, he’ll die gradually. The reason of the problem is that the rescue team comes lately after the accident. Also, they didn’t get the information when the accident occurs. That’s why, the accident victim couldn’t be saved in time. To get out of this problem, we need to make arrangements to rescue and take him to the hospital as soon as possible.</p><br>
+
+                    <p>In 90 percent of accidents, due to the late awareness of the accident, the person involved in the accident falls into the lap of inevitable death. The main objective of this project is to deliver the accident news of the victim of the road accident at any time, day or night, to the local hospital, police station and the workers of ambulance in a moment. The main goal of our project is to save a life. If we can save a person from death, In-Sha-Allah we can save a future of our country.
+                        </p><br>
+                        
+                    <p>A safety gadget is used in our project which will be used in the wheel of a car. It’s a wireless device. In an automatic system, it can detect a car accident and send the information of the location to the local hospital and police station. So that they can rescue the victim as soon as the accident occurs. It can be used in any vehicle and will be equally usable and effective. Even if it runs on battery backup, all other systems of this device except the sensor will consume power only after an accident. Before this, the rest of the systems will be off, only the sensor will be on to detect the accident, and also due to the constant rotation of the wheel, the device will use the rotational energy to charge the battery at the same time, so there will be no fear of the machine turning off.</p><br>
+                        
+                    <p>In-Sha-Allah, we are hopeful that the number of deaths will be reduced if the project is implemented rightly.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Service center end -->
+
+
+
+
+
+
+
+{% endblock %}
