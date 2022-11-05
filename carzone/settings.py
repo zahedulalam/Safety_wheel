@@ -170,8 +170,8 @@ SITE_ID = 1
 
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'zahedulalam01@gmail.com'
-EMAIL_HOST_PASSWORD = 'bdyhscelylgottsy'
+EMAIL_HOST_USER = 'your mail'
+EMAIL_HOST_PASSWORD = 'your pass'
 EMAIL_USE_TLS = True
 
 

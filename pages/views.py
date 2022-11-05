@@ -43,7 +43,7 @@ def contact(request):
         send_mail(
             subject,
             message_body,
-            'zahedulalam01@gmail.com',
+            'your mail',
             [admin_email],
             fail_silently=False,
         )
