@@ -27,7 +27,7 @@ SECRET_KEY = 'dz6ppjge32rmz094^-*2rx+*%w*2**0au6id!3w(g@v0_ih-*_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['glacial-scrubland-40722.herokuapp.com', 'safetywheel.service.com', 'www.safetywheel.service.com']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
